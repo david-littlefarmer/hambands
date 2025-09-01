@@ -1,0 +1,6 @@
+github.com/fsnotify/fsnotify v1.8.0 h1:dAwr6QBTBZIkG8roQaJjGof0pp0EeF+tNV7YBP3F/8M=
+github.com/fsnotify/fsnotify v1.8.0/go.mod h1:8jBTzvmWwFyi3Pb8djgCCO5IBqzKJ/Jwo8TRcHyHii0=
+github.com/goware/rerun v0.1.0 h1:DF+CyZIkARtU7FyvUZLKzwXARxRqx/lEre8V9sGjAK4=
+github.com/goware/rerun v0.1.0/go.mod h1:EcV6fsyl4+4qV298L42JErY+s6WQbQaUtcHh6ztOR6s=
+golang.org/x/sys v0.31.0 h1:ioabZlmFYtWhL+TRYpcnNlLwhyxaM9kWTDEmfnprqik=
+golang.org/x/sys v0.31.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
