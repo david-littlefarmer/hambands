@@ -226,8 +226,7 @@ func printBand(band Band) {
 	scale := float64(width) / (max_ - min_)
 
 	// Print the full line
-	fullLine := fmt.Sprintf("Full %6.0f├%s┤%-6.0f", min_, strings.Repeat("─", width+1), max_)
-	fmt.Println(fullLine)
+	fmt.Printf("Full %6.0f├%s┤%-6.0f\n", min_, strings.Repeat("─", width+1), max_)
 
 	for _, s := range band.Segments {
 		startCol := int(math.Round((s.Start - min_) * scale))
@@ -248,7 +247,7 @@ func printBand(band Band) {
 
 		startStr := ""
 		if startCol > 0 {
-			startStr = fmt.Sprintf("%*d", startCol+6, int(s.Start))
+			startStr = fmt.Sprintf("%*d", startCol+7, int(s.Start))
 		} else {
 			startStr = fmt.Sprintf("%6d", int(s.Start))
 		}
